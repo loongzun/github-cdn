@@ -2,6 +2,8 @@
 ## 一个用于GitHub图床加速的工具
 ### picgo端配置
 自定义域名这样书写: https://<你的域名>/<你的github用户名>/<你的仓库名>/<分支名>
+### image-hosting-pro
+自定义cdn那里填写: https://<你的域名>
 ### 使用方法
 在cloudflare中点击workers and pages 创建一个Workers,点击编辑代码将复制_workers.js的内容，粘贴进去。
 点击部署，并配置自定义域名。
